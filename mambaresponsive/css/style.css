@@ -27,6 +27,9 @@ body{
 	margin-left:0.3rem;
 	color:#444;
 }
+.mail a:hover{
+	color:blue;
+}
 .social{
 	display:none;
 }
@@ -61,6 +64,9 @@ body{
 	color:#444;
 	
 }
+.mail a:hover{
+	color:#428bca;
+}
 .media{
 	display:flex;
     
@@ -68,7 +74,10 @@ body{
 .media a{
 	padding:5px 14px;
 	color:#5c768d;
+}
+.media a:hover{
 	
+	color:#428bca;
 }
 .social{
 	display:block;
@@ -110,6 +119,9 @@ body{
 	color:#444;
 	
 }
+.mail a:hover{
+	color:#428bca;
+}
 .media{
 	display:flex;
     
@@ -118,6 +130,10 @@ body{
 	padding:6px 15px;
 	color:#5c768d;
 	
+}
+.media a:hover{
+	
+	color:#428bca;
 }
 .social{
 	display:block;
@@ -196,6 +212,9 @@ body{
 	padding:0.5rem 0.8rem;
 	color:#5c768d;
 	font-size:1rem;
+}
+.navul li a:hover{
+	color:#428bca;
 }
 }
 /**Header Over**/
@@ -340,8 +359,8 @@ body{
 	padding-top:4rem;
 }
 .aboutimg img{
-	width:366px;
-	height:368px;
+	width:100%;
+	height:auto;
 	padding:1rem 0;
 }
 .aboutus{
@@ -366,19 +385,35 @@ body{
 	display:flex;
 	padding-bottom:3rem;
 }
+.about1:hover .abouticon{
+	background-color:#428bca;
+	color:#fff;
+	transition:0.3s;
+}
+.about1:hover .abouticon i{
+	
+	color:#fff;
+	transition:0.3s;
+}
+.aboutdescription h4 a:hover{
+	color:#428bca;
+}
 .abouticon{
 	width:72px;
 	height:72px;
-	background-color:#428bca;
+	background-color:#f1f7fb;
 	border-radius:6px;
 	text-align:center;
+	justify-content:center;
+	display:flex;
+	align-items:center;
 	
 }
 .abouticon i{
 	font-size:2rem;
-	color:#fff;
-
+	color:#428bca;
 }
+
 .aboutdescription{
 	width:70%;
 	margin-left:1rem;
@@ -407,8 +442,8 @@ body{
 	padding:0 1rem;
 }
 .aboutimg img{
-	width:696px;
-	height:691px;
+	width:100%;
+	height:auto;
 	padding:1rem 0;
 }
 .aboutus{
@@ -434,17 +469,33 @@ body{
 	padding-bottom:3rem;
 	
 }
+.about1:hover .abouticon{
+	background-color:#428bca;
+	color:#fff;
+	transition:0.3s;
+}
+.about1:hover .abouticon i{
+	
+	color:#fff;
+	transition:0.3s;
+}
+.aboutdescription h4 a:hover{
+	color:#428bca;
+}
 .abouticon{
 	width:72px;
 	height:72px;
-	background-color:#428bca;
+	background-color:#f1f7fb;
 	border-radius:6px;
 	text-align:center;
+	justify-content:center;
+	display:flex;
+	align-items:center;
 	
 }
 .abouticon i{
 	font-size:2rem;
-	color:#fff;
+	color:#428bca;;
 
 }
 .aboutdescription{
@@ -507,18 +558,32 @@ body{
 	display:flex;
 	padding-bottom:5rem;
 }
+.about1:hover .abouticon{
+	background-color:#428bca;
+	color:#fff;
+	transition:0.3s;
+}
+.about1:hover .abouticon i{
+	
+	color:#fff;
+	transition:0.3s;
+}
+.aboutdescription h4 a:hover{
+	color:#428bca;
+}
 .abouticon{
 	width:72px;
 	height:72px;
-	background-color:#428bca;
+	background-color:#f1f7fb;
 	border-radius:6px;
 	text-align:center;
-	
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .abouticon i{
 	font-size:2rem;
-	color:#fff;
-
+	color:#428bca;
 }
 .aboutdescription{
 	
@@ -748,6 +813,9 @@ body{
     
 
 }
+.servicecontent:hover .serviceicon{
+	box-shadow:0 0 25px #428bca;
+}
 .serviceicon i{
 	font-size:36px;
 }
@@ -813,8 +881,9 @@ body{
     border-radius: 50%;
     color: #428bca;
     box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
-    
-
+}
+.servicecontent:hover .serviceicon{
+	box-shadow:0 0 25px #428bca;
 }
 .serviceicon i{
 	font-size:36px;
@@ -859,6 +928,7 @@ body{
 	color:#5c768d;
 	font-weight:600;
 	margin-bottom:20px;
+	
 }
 .serviceflex{
 	display:flex;
@@ -887,6 +957,9 @@ body{
     
 
 }
+.servicecontent:hover .serviceicon{
+	box-shadow:0 0 25px #428bca;
+}
 .serviceicon i{
 	font-size:36px;
 }
@@ -902,15 +975,19 @@ body{
 	color:#444;
 }
 
-/**
+
 .servicecontent h4::after{
 	content:"";
 	position:absolute;
-	width:50px;
+	width:15%;
+	
 	height:2px;
 	background-color:#428bca;
-	
-}**/
+	display:flex;
+	top: 2rem;
+	left: 8rem;
+}
+
 .servicecontent p{
 	font-size:16px;
 	line-height:24px;
@@ -919,8 +996,8 @@ body{
 }
 /**service over**/
 .portimg img{
-	width:366px;
-	height:275px;
+	width:100%;
+	height:auto;
 }
 .portfolio{
 	padding:60px 0;
@@ -954,71 +1031,21 @@ body{
 .portul a{
 	text-decoration:none;
 	padding:0.8rem 1.2rem;
-	background-color:#007aff;
-	color:#fff;
+	background-color:#fff;
+	color:#007aff;
 	border-radius:6px;
 	font-size:0.8rem;
+}
+.portul a:hover{
+	background-color:#007aff;
+	color:#fff;
 }
 .portimg{
 	padding-bottom:30px;
 }
 @media(min-width:768px){
 .portimg img{
-	width:366px;
-	height:275px;
-}
-.portfolio{
-	padding:60px 0;
-}
-.porthead{
-	text-align:center;
-	padding-bottom:30px;
-}
-.porthead h2{
-	font-size:2rem;
-	color:#5c768d;
-	font-weight:600;
-	margin-bottom:20px;	
-}
-.porthead p{
-	color:#444;
-	line-height:1.5rem;
-	font-size:1.1rem;
-}
-.portlink{
-	padding:30px 0;
-	margin-bottom:30px;
-}
-.portul{
-	display:flex;
-	justify-content:center;
-	
-}
-.portul li{
-	padding:0 0.5rem;
-}
-.portul a{
-	text-decoration:none;
-	padding:0.8rem 1.2rem;
-	background-color:#007aff;
-	color:#fff;
-	border-radius:6px;
-	font-size:0.8rem;
-}
-.portflex{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:space-between;
 	width:100%;
-}
-.portimg{
-	padding-bottom:20px;
-	width:48%;
-}
-}
-@media(min-width:1024px){
-.portimg img{
-	width:97%;
 	height:auto;
 }
 .portfolio{
@@ -1054,10 +1081,74 @@ body{
 .portul a{
 	text-decoration:none;
 	padding:0.8rem 1.2rem;
-	background-color:#007aff;
-	color:#fff;
+	background-color:#fff;
+	color:#007aff;
 	border-radius:6px;
 	font-size:0.8rem;
+}
+.portul a:hover{
+	background-color:#007aff;
+	color:#fff;
+}
+.portflex{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	width:100%;
+}
+.portimg{
+	padding-bottom:20px;
+	width:48%;
+	padding:10px 10px;
+}
+}
+@media(min-width:1024px){
+.portimg img{
+	width:100%;
+	height:auto;
+}
+
+.portfolio{
+	padding:60px 0;
+}
+.porthead{
+	text-align:center;
+	padding-bottom:30px;
+}
+.porthead h2{
+	font-size:2rem;
+	color:#5c768d;
+	font-weight:600;
+	margin-bottom:20px;	
+}
+.porthead p{
+	color:#444;
+	line-height:1.5rem;
+	font-size:1.1rem;
+}
+.portlink{
+	padding:30px 0;
+	margin-bottom:30px;
+}
+.portul{
+	display:flex;
+	justify-content:center;
+	
+}
+.portul li{
+	padding:0 0.5rem;
+}
+.portul a{
+	text-decoration:none;
+	padding:0.8rem 1.2rem;
+	background-color:#fff;
+	color:#007aff;
+	border-radius:6px;
+	font-size:0.8rem;
+}
+.portul a:hover{
+	background-color:#007aff;
+	color:#fff;
 }
 .portflex{
 	display:flex;
@@ -1068,11 +1159,12 @@ body{
 .portimg{
 	padding-bottom:20px;
 	width:33.3%;
+	padding:10px 10px;
 }
 }
 /**Portfolio over**/
 .teamimg img{
-	width:366px;
+	width:100%;
 	height:auto;
 }
 .team{
@@ -1501,6 +1593,10 @@ form{
 	border:none;
 	font-size:16px;
 }
+.button button:hover{
+	background-color:#9eccf4;
+	transition:0.4s;
+}
 @media(min-width:768px){
 	.contact{
 	padding:60px 0;
@@ -1612,6 +1708,10 @@ form{
 	border:none;
 	font-size:16px;
 }
+.button button:hover{
+	background-color:#9eccf4;
+	transition:0.4s;
+}
 }
 @media(min-width:1024px){
 .contact{
@@ -1687,6 +1787,7 @@ form{
 form{
 	padding:30px;
 	width:100%;
+	margin:30px 0;
 	box-shadow:0 0 30px rgba(214,215,216,0.6);
 }
 .formflex{
@@ -1701,7 +1802,7 @@ form{
 	
 }
 .formname input{
-	padding:10px 15px;
+	padding:12px 18px;
 	border: 1px solid #ced4da;
 	width:100%;
 }
@@ -1711,7 +1812,7 @@ form{
 	
 }
 .subject input{
-	padding:10px 15px;
+	padding:12px 18px;
 	border: 1px solid #ced4da;
 	width:100%;
 }
@@ -1721,7 +1822,7 @@ form{
 	
 }
 .message textarea{
-	padding:10px 15px;
+	padding:12px 18px;
 	border: 1px solid #ced4da;
 	width:100%;
 }
@@ -1734,6 +1835,10 @@ form{
 	padding:15px 30px;
 	border:none;
 	font-size:16px;
+}
+.button button:hover{
+	background-color:#9eccf4;
+	transition:0.4s;
 }
 }
 /**Contact over**/
@@ -1769,6 +1874,9 @@ form{
 	border-radius:50%;
 	background-color:#768fa6;
 }
+.footlink a:hover{
+	background-color:#428bca;
+}
 .foot2{
 	margin-bottom:30px;
 	padding:0 12px;
@@ -1787,6 +1895,10 @@ form{
 	font-size:14px;
 	color:#fff;
 	font-weight:500;
+}
+.footul li a:hover{
+	color:#9eccf4;
+	transition:0.3s;
 }
 .footul li i{
 	padding-right:2px;
@@ -1885,6 +1997,9 @@ form{
 	border-radius:50%;
 	background-color:#768fa6;
 }
+.footlink a:hover{
+	background-color:#428bca;
+}
 .foot2{
 	margin-bottom:30px;
 	padding:0 12px;
@@ -1904,6 +2019,10 @@ form{
 	font-size:14px;
 	color:#fff;
 	font-weight:500;
+}
+.footul li a:hover{
+	color:#9eccf4;
+	transition:0.3s;
 }
 .footul li i{
 	padding-right:2px;
@@ -2004,6 +2123,9 @@ form{
 	border-radius:50%;
 	background-color:#768fa6;
 }
+.footlink a:hover{
+	background-color:#428bca;
+}
 .foot2{
 	margin-bottom:30px;
 	padding:0 12px;
@@ -2023,6 +2145,10 @@ form{
 	font-size:14px;
 	color:#fff;
 	font-weight:500;
+}
+.footul li a:hover{
+	color:#9eccf4;
+	transition:0.3s;
 }
 .footul li i{
 	padding-right:2px;
@@ -2083,3 +2209,4 @@ form{
 	color:#9eccf4;
 }
 }
+/**copyright over**/
