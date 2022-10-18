@@ -824,22 +824,24 @@ body{
 	font-weight:600;
 	margin-bottom:15px;
 	padding-bottom:15px;
-	position:relative;
+	
 }
 .servicecontent h4 a{
 	text-decoration:none;
 	color:#444;
 }
 
-/**
 .servicecontent h4::after{
 	content:"";
-	position:absolute;
+	position:relative;
 	width:50px;
+	margin:auto;
 	height:2px;
 	background-color:#428bca;
+	display:flex;
+	top: 1rem;
 	
-}**/
+}
 .servicecontent p{
 	font-size:16px;
 	line-height:24px;
@@ -893,22 +895,24 @@ body{
 	font-weight:600;
 	margin-bottom:15px;
 	padding-bottom:15px;
-	position:relative;
+	
 }
 .servicecontent h4 a{
 	text-decoration:none;
 	color:#444;
 }
 
-/**
 .servicecontent h4::after{
 	content:"";
-	position:absolute;
+	position:relative;
 	width:50px;
+	margin:auto;
 	height:2px;
 	background-color:#428bca;
+	display:flex;
+	top: 1rem;
 	
-}**/
+}
 .servicecontent p{
 	font-size:16px;
 	line-height:24px;
@@ -968,7 +972,7 @@ body{
 	font-weight:600;
 	margin-bottom:15px;
 	padding-bottom:15px;
-	position:relative;
+	
 }
 .servicecontent h4 a{
 	text-decoration:none;
@@ -978,14 +982,14 @@ body{
 
 .servicecontent h4::after{
 	content:"";
-	position:absolute;
-	width:15%;
-	
+	position:relative;
+	width:50px;
+	margin:auto;
 	height:2px;
 	background-color:#428bca;
 	display:flex;
-	top: 2rem;
-	left: 8rem;
+	top: 1rem;
+	
 }
 
 .servicecontent p{
@@ -1042,6 +1046,23 @@ body{
 }
 .portimg{
 	padding-bottom:30px;
+	position:relative;
+}
+.pimg{
+	position:absolute;
+	top:10px;
+	right:10px;
+	bottom:25px;
+	left:10px;
+	padding:5rem;
+	opacity:0 ;
+	color:white;
+	text-align:center;
+	background-color:#625c5c47;
+}
+.portimg:hover .pimg{
+	opacity:1;
+	transition:0.3s ease;
 }
 @media(min-width:768px){
 .portimg img{
@@ -1099,7 +1120,24 @@ body{
 .portimg{
 	padding-bottom:20px;
 	width:48%;
-	padding:10px 10px;
+	
+	position:relative;
+}
+.pimg{
+	position:absolute;
+	top:10px;
+	right:10px;
+	bottom:25px;
+	left:10px;
+	padding:5rem;
+	opacity:0 ;
+	color:white;
+	text-align:center;
+	background-color:#625c5c47;
+}
+.portimg:hover .pimg{
+	opacity:1;
+	transition:0.3s ease;
 }
 }
 @media(min-width:1024px){
@@ -1159,7 +1197,24 @@ body{
 .portimg{
 	padding-bottom:20px;
 	width:33.3%;
-	padding:10px 10px;
+	
+	position:relative;
+}
+.pimg{
+	position:absolute;
+	top:10px;
+	right:10px;
+	bottom:25px;
+	left:10px;
+	padding:5rem;
+	opacity:0 ;
+	color:white;
+	text-align:center;
+	background-color:#625c5c47;
+}
+.portimg:hover .pimg{
+	opacity:1;
+	transition:0.3s ease;
 }
 }
 /**Portfolio over**/
