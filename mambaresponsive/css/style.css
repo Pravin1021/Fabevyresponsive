@@ -1050,10 +1050,10 @@ body{
 }
 .pimg{
 	position:absolute;
-	top:10px;
-	right:10px;
-	bottom:25px;
-	left:10px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
 	padding:5rem;
 	opacity:0 ;
 	color:white;
@@ -1063,6 +1063,17 @@ body{
 .portimg:hover .pimg{
 	opacity:1;
 	transition:0.3s ease;
+}
+.pimg-icon{
+	margin-top:1rem;
+}
+.pimg-icon i{
+	padding:0.5rem 0.5rem;
+	font-size:1.5rem;
+	font-weight:600;
+	border-radius:50%;
+	background-color:#fff;
+	color:blue;
 }
 @media(min-width:768px){
 .portimg img{
@@ -1125,10 +1136,10 @@ body{
 }
 .pimg{
 	position:absolute;
-	top:10px;
-	right:10px;
-	bottom:25px;
-	left:10px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
 	padding:5rem;
 	opacity:0 ;
 	color:white;
@@ -1138,6 +1149,17 @@ body{
 .portimg:hover .pimg{
 	opacity:1;
 	transition:0.3s ease;
+}
+.pimg-icon{
+	margin-top:1rem;
+}
+.pimg-icon i{
+	padding:0.5rem 0.5rem;
+	font-size:1.5rem;
+	font-weight:600;
+	border-radius:50%;
+	background-color:#fff;
+	color:blue;
 }
 }
 @media(min-width:1024px){
@@ -1195,17 +1217,18 @@ body{
 	width:100%;
 }
 .portimg{
-	padding-bottom:20px;
+	
 	width:33.3%;
 	
 	position:relative;
 }
 .pimg{
 	position:absolute;
-	top:10px;
-	right:10px;
-	bottom:25px;
-	left:10px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	line-height:2rem;
+	left:0px;
 	padding:5rem;
 	opacity:0 ;
 	color:white;
@@ -1215,6 +1238,17 @@ body{
 .portimg:hover .pimg{
 	opacity:1;
 	transition:0.3s ease;
+}
+.pimg-icon{
+	margin-top:1rem;
+}
+.pimg-icon i{
+	padding:0.5rem 0.5rem;
+	font-size:1.5rem;
+	font-weight:600;
+	border-radius:50%;
+	background-color:#fff;
+	color:blue;
 }
 }
 /**Portfolio over**/
@@ -1241,10 +1275,17 @@ body{
 }
 .teamflexcont{
 	margin-bottom:100px;
-}/**
-.teamimg{
+}
+.teamflexcont{
 	position:relative;
-}**/
+}
+.teamimg{
+	overflow:hidden;
+}
+.teamflexcont:hover .teamimg img{
+	transform:scale(1.1);
+	transition:0.3s eaase-in-out;
+}
 .teamimg img{
 	border-radius:5px;
 }
@@ -1254,11 +1295,10 @@ body{
 	text-align:center;
 	padding:15px 80px;
 	border-radius:5px;
-	/** position:absolute;
-	bottom:-40px;
-	left:20px;
-	right:20px;
-	**/
+	position:absolute;
+	bottom: -48px;
+    left: 20px;
+    right: 20px;
 }
 .imgcontent h4{
 	font-size:1rem;
@@ -1266,6 +1306,17 @@ body{
 	padding-bottom:20px;
 	color:#fff;
 	
+	
+}
+.imgcontent h4::after{
+	content:"";
+	position:relative;
+	width:50px;
+	margin:auto;
+	height:2px;
+	background-color:#fff;
+	display:flex;
+	top: 0.5rem;
 	
 }
 .imgcontent span{
@@ -1315,10 +1366,17 @@ body{
 .teamflexcont{
 	margin-bottom:100px;
 	width:49%;
-}/**
-.teamimg{
+}
+.teamflexcont{
 	position:relative;
-}**/
+}
+.teamimg{
+	overflow:hidden;
+}
+.teamflexcont:hover .teamimg img{
+	transform:scale(1.1);
+	transition:0.3s eaase-in-out;
+}
 .teamimg img{
 	border-radius:5px;
 }
@@ -1328,11 +1386,10 @@ body{
 	text-align:center;
 	padding:15px 0px;
 	border-radius:5px;
-	/** position:absolute;
-	bottom:-40px;
-	left:20px;
-	right:20px;
-	**/
+	position:absolute;
+	bottom: -48px;
+    left: 20px;
+    right: 20px;
 }
 .imgcontent h4{
 	font-size:1rem;
@@ -1340,6 +1397,17 @@ body{
 	padding-bottom:20px;
 	color:#fff;
 	
+	
+}
+.imgcontent h4::after{
+	content:"";
+	position:relative;
+	width:50px;
+	margin:auto;
+	height:2px;
+	background-color:#fff;
+	display:flex;
+	top: 0.5rem;
 	
 }
 .imgcontent span{
@@ -1364,6 +1432,7 @@ body{
 	width:100%;
 	height:auto;
 }
+
 .team{
 	padding:60px 0;
 }
@@ -1390,32 +1459,50 @@ body{
 .teamflexcont{
 	margin-bottom:100px;
 	width:24%;
-}/**
-.teamimg{
-	position:relative;
-}**/
+}
+
 .teamimg img{
+	
 	border-radius:5px;
+}
+.teamflexcont{
+	position:relative;
+	
+		
+}
+.teamimg{
+	overflow:hidden;
+}
+.teamflexcont:hover .teamimg img{
+	transform:scale(1.1);
+	transition:0.3s eaase-in-out;
 }
 .imgcontent{
+	position:absolute;
+	bottom: -48px;
+    left: 20px;
+    right: 20px;
 	
-	background-color:rgb(92,118,141);
-	text-align:center;
-	padding:15px 0px;
-	border-radius:5px;
-	/** position:absolute;
-	bottom:-40px;
-	left:20px;
-	right:20px;
-	**/
+	
 }
+
+
 .imgcontent h4{
 	font-size:1rem;
 	font-weight:700;
 	padding-bottom:20px;
 	color:#fff;
 	
-	
+}
+.imgcontent h4::after{
+	content:"";
+	position:relative;
+	width:50px;
+	margin:auto;
+	height:2px;
+	background-color:#fff;
+	display:flex;
+	top: 0.5rem;
 }
 .imgcontent span{
 	color:#fff;
