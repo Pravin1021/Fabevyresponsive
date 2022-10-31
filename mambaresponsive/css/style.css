@@ -1114,15 +1114,15 @@ body{
 	color:#fff;
 }
 .portimg{
-	padding-bottom:30px;
+	padding:1.2rem;
 	position:relative;
 }
 .pimg{
 	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	left:0px;
+	top:20px;
+	right:20px;
+	bottom:20px;
+	left:20px;
 	padding:5rem;
 	opacity:0 ;
 	color:white;
@@ -1209,10 +1209,10 @@ body{
 }
 .pimg{
 	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	left:0px;
+	top:20px;
+	right:20px;
+	bottom:20px;
+	left:20px;
 	padding:5rem;
 	opacity:0 ;
 	color:white;
@@ -1301,11 +1301,11 @@ body{
 }
 .pimg{
 	position:absolute;
-	top:0px;
-	right:0px;
-	bottom:0px;
+	top:20px;
+	right:20px;
+	bottom:20px;
+	right:20px;
 	line-height:2rem;
-	left:0px;
 	padding:5rem;
 	opacity:0 ;
 	color:white;
