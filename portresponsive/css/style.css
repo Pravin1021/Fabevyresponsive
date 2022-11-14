@@ -1,0 +1,22 @@
+
+.navlink li a:hover{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.medialink  {
+    list-style-type: none;
+}
+
+.medialink li a:hover{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.profileimg img{
+    border-bottom-left-radius:50% ;
+    border-top-right-radius:50% ;
+}
+body{
+    background-color: black !important;   
+}
