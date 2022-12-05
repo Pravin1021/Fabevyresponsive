@@ -94,7 +94,7 @@ body{
 	font-family:roboto;
 }
 .container{
-	margin:0 2rem;
+	margin:0 3rem;
 	
 }
 .headtop{
@@ -1070,6 +1070,7 @@ body{
 }
 .portfolio{
 	padding:60px 0;
+	background-color: #f5f9fc;
 }
 .porthead{
 	text-align:center;
@@ -1151,6 +1152,7 @@ body{
 }
 .portfolio{
 	padding:60px 0;
+	background-color: #f5f9fc;
 }
 .porthead{
 	text-align:center;
@@ -1243,6 +1245,7 @@ body{
 
 .portfolio{
 	padding:60px 0;
+	background-color: #f5f9fc;
 }
 .porthead{
 	text-align:center;
